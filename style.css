@@ -1,0 +1,186 @@
+/*body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+nav {
+  background: #333;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+nav li {
+  flex: 1;
+}
+nav a {
+  color: #fff;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+nav a:hover {
+  background: #555;
+}
+
+section {
+  padding: 20px;
+}
+h2 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+.work, table {
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: left;
+}
+
+footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
+*/
+
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    color: #333;
+    background-color: #fff;
+}
+
+/* ヘッダー */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+    header h1 {
+        margin: 0 0 15px;
+        font-size: 1.7rem;
+    }
+
+/* メニュー */
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+    nav a:hover {
+        color: #1769aa;
+        text-decoration: underline;
+    }
+
+/* 各セクション */
+section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 24px;
+}
+
+h2 {
+    margin-top: 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ddd;
+    font-size: 1.5rem;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* 作品紹介 */
+.work {
+    margin: 24px 0;
+    padding: 24px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fafafa;
+}
+
+    .work p {
+        margin: 12px 0;
+    }
+
+    .work a {
+        display: inline-block;
+        margin-top: 8px;
+        color: #1769aa;
+        overflow-wrap: anywhere;
+    }
+
+        .work a:hover {
+            color: #104b7a;
+        }
+
+/* お問い合わせ */
+#contact {
+    border-top: 1px solid #eee;
+}
+
+    #contact a {
+        color: #1769aa;
+        overflow-wrap: anywhere;
+    }
+
+/* フッター */
+footer {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* スマートフォン対応 */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.35rem;
+    }
+
+    nav ul {
+        gap: 8px 18px;
+    }
+
+    section {
+        padding: 30px 18px;
+    }
+
+    .work {
+        padding: 18px;
+    }
+}
+
